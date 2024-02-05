@@ -1,5 +1,3 @@
--- TODO: NOTIFY MAKES A BOX< BUT IG DOESN"T MAKE IT LARGER WHEN NEW NOTIFICATIONS COME IN
-
 local win_
 
 local function notify_output(command, opts)
