@@ -66,7 +66,7 @@ local function CFLastVerdict()
     -- timeout = 3000,
     on_open = function(wind)
       win_ = wind
-      vim.api.nvim_win_set_height(wind, 8)
+      vim.api.nvim_win_set_height(wind, 11) -- the number of line of output of the checker script, change when modifying the output
       local buf = vim.api.nvim_win_get_buf(wind)
       vim.api.nvim_buf_set_option(buf, "filetype", "markdown")
     end
